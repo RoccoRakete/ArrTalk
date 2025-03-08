@@ -1,0 +1,5 @@
+api sabnzbd: http://10.7.2.90:8080/sabnzbd/api?mode=queue&cat=*?output=json&apikey=lft6pa1vpzi5dipxxd5gmf2l7b2rrs5z
+
+wenn status von	"Downloading" zu "Idle" wechselt, ist der downloadvorgang abgeschlossen
+
+JellyFin full library rescan: curl -X POST 'http://10.7.2.69:8096/Library/Refresh' -H 'Authorization: MediaBrowser Token="887d761084974b48985cd63fa9633e35"'
