@@ -29,6 +29,7 @@
           buildInputs = [
             openssl
             pkg-config
+            docker
             (rust-bin.selectLatestNightlyWith (
               toolchain:
               toolchain.default.override {
