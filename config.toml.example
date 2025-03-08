@@ -1,12 +1,15 @@
 [sonarr]
+enable = true
 url = "http://10.7.2.90:8989"
 api_key = "XXX"
 
 [radarr]
+enable = false
 url = "http://10.7.2.90:7878"
 api_key = "XXX"
 
 [jellyfin]
+enable = true
 url = "http://10.7.2.69:8096"
 api_key = "XXX"
 
