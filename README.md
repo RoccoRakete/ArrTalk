@@ -19,13 +19,13 @@ services:
     image: ghcr.io/roccorakete/arrtalk:latest
     environment:
       - SONARR_ENABLE=true
-      - SONARR_HOST=<SONARR IP/HOST>
+      - SONARR_HOST=<SONARR IP/HOST+PORT>
       - SONARR_API=<SONARR API>
       - RADARR_ENABLE=true
-      - RADARR_HOST=<RADARR IP/HOST>
+      - RADARR_HOST=<RADARR IP/HOST+PORT>
       - RADARR_API=<RADARR API>
       - JELLYFIN_ENABLE=true
-      - JELLYFIN_HOST=<JELLYFIN IP/HOST>
+      - JELLYFIN_HOST=<JELLYFIN IP/HOST+PORT>
       - JELLYFIN_API=<JELLYFIN API>
 ```
 ### TODO
