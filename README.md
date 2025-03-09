@@ -30,4 +30,4 @@ services:
 ```
 ### TODO
 
--[] Support Plex
+Support Plex
