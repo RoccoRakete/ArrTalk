@@ -9,12 +9,17 @@ RUN cargo build --release
 
 FROM ubuntu
 
+RUN apt update && apt install -y gettext
+RUN apt install -y ncurses-term
+
 # Copy the compiled binary from the builder stage
 COPY --from=builder ./target/release/ArrTalk .
 COPY --from=builder ./config.toml .
 
+COPY config.toml config.template.toml
+
 # Run the binary
-CMD ["./ArrTalk"]
+CMD envsubst < config.template.toml > config.toml && ./ArrTalk
 
 
 

@@ -1,0 +1,15 @@
+[sonarr]
+enable = ${SONARR_ENABLE}
+url = "${SONARR_HOST}"
+api_key = "${SONARR_API}"
+
+[radarr]
+enable = ${RADARR_ENABLE}
+url = "${RADARR_HOST}"
+api_key = "${RADARR_API}"
+
+[jellyfin]
+enable = ${JELLYFIN_ENABLE}
+url = "${JELLYFIN_HOST}"
+api_key = "${JELLYFIN_API}"
+
