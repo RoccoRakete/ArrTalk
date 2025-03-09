@@ -28,3 +28,6 @@ services:
       - JELLYFIN_HOST=<JELLYFIN IP/HOST>
       - JELLYFIN_API=<JELLYFIN API>
 ```
+### TODO
+
+- [] Support Plex
